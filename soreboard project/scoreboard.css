@@ -64,7 +64,7 @@ span{
 }
 #guest-button{
     margin-top:20px;
-    margin-left:110px;
+    margin-left:60px;
 }
 #home-1, #home-2, #home-3,
 #guest-1, #guest-2, #guest-3{
@@ -73,6 +73,8 @@ span{
 
 #quarter-button{
     margin-left:100px;
+    text-align:center;
+    font-weight: bold;
 }
 
 
