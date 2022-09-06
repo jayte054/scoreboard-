@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scoreboard.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div id="home-el" id="home-attributes">
+            <span id="title">HOME</span>
+        </div>
+        <div id="guest-el" id="guest-attributes">
+            <span id="title">GUEST</span>
+        </div>
+        <div id="home-score" id="home-attributes">
+            <span>0</span>
+            </div>
+        <div id="guest-score" id="guest-attributes">
+            <span>0</span>
+        </div>
+    </div>    
+        <div id="buttons">
+            <div id="home-button">
+            <button id="home-1"  onclick="add1()">+1</button>
+            <button id="home-2" onclick="add2()">+2</button>
+            <button id="home-3"  onclick="add3()">+3</button>
+        </div>
+    
+        <div id="quarter-button">
+            <button id="quarter-number" onclick= "changeQuarter()">➡  </button>
+        </div>
+
+        <div id="guest-button">
+            <button id="guest-1" onclick="guest1()">+1</button>
+            <button id="guest-2"  onclick="guest2()">+2</button>
+            <button id="guest-3"  onclick="guest3()">+3</button>
+        </div>
+       
+    </div>
+    <script src="scoreboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(10, 10, 82);
+   margin-right: 20px;
+   margin-left: 20px;
+   padding-top: 20px;
+   border-radius: 10px;
+   max-width: 700px;
+   margin-left: 300px;
+}
+
+#title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#home-score, #guest-score{
+    margin-top: 40px;
+    border-right: 20px;
+
+
+}
+span{
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+#home-score{
+    margin-left: -700px;
+    border-radius: 10px; 
+    background-color: black;
+    color:red;
+    font-size:40px;
+    
+}
+#guest-score{
+    margin-left:45px;
+    border-radius: 10px;
+    border-width: 200px; 
+    background-color: black;
+    color:red;
+    font-size:40px;
+}
+#buttons{
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(10, 10, 82);
+    padding-top:10px;
+    padding-bottom: 40px;
+    margin-left:  20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    max-width:700px;
+    margin-left: 300px;
+    
+}
+
+#home-button{
+    margin-top: 20px;
+    margin-left: 115px;
+    
+}
+#guest-button{
+    margin-top:20px;
+    margin-left:110px;
+}
+#home-1, #home-2, #home-3,
+#guest-1, #guest-2, #guest-3{
+    width: 40px;
+}
+
+#quarter-button{
+    margin-left:100px;
+}
+
+
